@@ -196,4 +196,10 @@ footer span {
 	#Pricing .pricing-card {
 		margin: 1rem 0;
 	}
+	#form label{
+		font-size: 1.5rem;
+	}
+	#form input[type="submit"]{
+		width:100%;
+	}
 }
