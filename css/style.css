@@ -137,12 +137,12 @@ body {
 	color: #1ed760;
 }
 footer {
-    margin-top: 30px;
-    background-color: #ddd;
-    padding: 20px;
+	margin-top: 30px;
+	background-color: #ddd;
+	padding: 20px;
 }
-footer span{
-	display:flex;
+footer span {
+	display: flex;
 	justify-content: center;
 }
 /* form */
@@ -176,4 +176,25 @@ footer span{
 	cursor: pointer;
 	font-size: 1rem;
 	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* media queries */
+@media (max-width: 768px) {
+	#Overview {
+		flex-direction: column;
+		margin: 4rem 0;
+	}
+
+	#Overview .card {
+		margin: 2rem 0;
+	}
+
+	#Pricing {
+		flex-direction: column;
+		margin: 4rem 0;
+	}
+
+	#Pricing .pricing-card {
+		margin: 1rem 0;
+	}
 }
