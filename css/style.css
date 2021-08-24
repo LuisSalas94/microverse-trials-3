@@ -177,3 +177,22 @@ footer span{
 	font-size: 1rem;
 	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
 }
+@media (max-width: 768px) {
+	#Overview {
+		flex-direction: column;
+		margin: 4rem 0;
+	}
+
+	#Overview .card {
+		margin: 2rem 0;
+	}
+
+	#Pricing {
+		flex-direction: column;
+		margin: 4rem 0;
+	}
+
+	#Pricing .pricing-card {
+		margin: 1rem 0;
+	}
+}
