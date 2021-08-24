@@ -46,3 +46,41 @@ body {
 	width: 40px;
 	cursor: pointer;
 }
+/* overview */
+#Overview {
+	margin: 10rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#Overview .card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 0 8rem;
+	cursor: pointer;
+}
+
+#Overview .card h2 {
+	font-size: 1.5rem;
+	margin-top: 5px;
+}
+
+#Overview .card p {
+	font-style: italic;
+}
+
+.fas,
+.fab {
+	font-size: 3rem;
+	color: #222;
+}
+
+/* how it works */
+#How_it_works {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
